@@ -1,0 +1,26 @@
+# .gitignore
+
+# Ignorar el directorio de node_modules
+node_modules/
+
+# Ignorar el archivo .env que contiene las variables de entorno
+.env
+
+# Ignorar el directorio de logs
+logs/
+
+# Ignorar los archivos de registro de depuración de Visual Studio Code
+.vscode/
+
+# Ignorar los archivos de registro de npm
+npm-debug.log*
+
+# Ignorar los archivos de registro de yarn
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar los archivos de configuración de IDE y editores
+*.swp
+*.swo
+*.swn
+*.idea/
